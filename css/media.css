@@ -1,0 +1,1878 @@
+/* Smartphones (portrait and landscape) ----------- */
+.socialHomes{
+    display: none;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .secondHalf{
+     min-height: 50%;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    body,html{
+        font-size: 20px !important;
+    }
+    section{
+        width: 100%;
+        height: auto;
+    }
+    /* Styles */
+    .header{
+        background: #FFF;
+        font-size: 30px;
+    }
+    ul.nav li{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        margin: 0%;
+    }
+    .home-page{
+        position: relative;
+    }
+    .scrollDown{
+        font-size: 30px;
+    }
+    .fontAvenir{
+        text-align: center;
+        font-size: 3em;
+    }
+    .firstHalf,.secondHalf{
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        min-height: 50%;
+        overflow: visible;
+        position: relative;
+    }
+    .relativePosition h1{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+    .raffleItem{
+        font-size: 30px;
+    }
+    .raffleItemImage{
+        text-align: center;
+        width: 100%;
+    }
+    .raffleItemDescription{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height:auto;
+        font-size: 30px;
+        z-index: 100;
+    }
+    .raffleItemDescription h1{
+        margin: 2% 0%;
+        padding: 3%;
+    }
+    .raffleItemImage img.image{
+        width: 100%;
+    }
+    .singleItem{
+        width: 100%;
+        margin-bottom: 5%;
+        border-bottom: 1px solid #bbb;
+        padding-bottom: 5%;
+    }
+    .singleItem .ticketInfoContainer{
+        font-size: 30px;
+    }
+    .expander{
+        display: none;
+    }
+    .homelogo{
+        height: 50%;
+    }
+    section.home{
+        height: 100%;
+    }
+    .raffleItemImage{
+        font-size: 30px;
+    }
+    .faqContainer .smallQ,.largeQ{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5% 0%;
+        height: auto;
+        text-align: center;
+    }
+    .footerHalf{
+        margin-left: 2%;
+        padding: 3%;
+        width: 96%;
+    }
+    .footerRight{
+        text-align: center;
+    }
+    .lastSection{
+        height: auto !important;
+        padding-bottom: 5%;
+    }
+}

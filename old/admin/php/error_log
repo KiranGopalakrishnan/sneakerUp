@@ -1,0 +1,2 @@
+[27-Feb-2017 20:39:22 America/Toronto] PHP Warning:  move_uploaded_file(../uploads/6.png): failed to open stream: No such file or directory in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 34
+[27-Feb-2017 20:39:22 America/Toronto] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php0Rpqhm' to '../uploads/6.png' in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 34

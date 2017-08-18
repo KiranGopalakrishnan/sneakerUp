@@ -1,0 +1,444 @@
+body,html{
+    font-family: "Roboto", sans-serif;
+    margin:0% !important;
+    padding:0%;
+    font-size: 16px;
+    height:100%;
+    width:100%;
+    min-height: 100%;
+    vertical-align: middle;
+    position: relative;
+}
+.header{
+    padding: 2%;
+    width: 96%;
+    background: #f5f5f5;
+}
+.adminContainer{
+    height:100%;
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.adminContainer h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #e9244f;
+    margin-top: 5%;
+}
+.adminContainer h2{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #27ae60;
+    font-weight: 100;
+    width: 100%;
+}
+.adminContainer > *{
+    vertical-align: middle;
+    display: inline-block;
+}
+.loginForm{
+    height:auto;
+    width:auto;
+    display: inline-block;
+    margin-top: 2.5%;
+}
+.login{
+    width: auto;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+.login input{
+    width: 100%;
+    border: solid 1px #FFFFFF;
+    width: 90%;
+    padding: 5%;
+    margin: 5% 0%;
+    border: solid 1px #2ecc71;
+    border-radius: 10px;
+}
+.login input[type="submit"]{
+    color: #2ecc71;
+    width: 100%;
+    border: solid 1px #2ecc71;
+    border-radius: 10px;
+    background: #FFF;
+    cursor: pointer;
+    transition: all 1s linear;
+}
+.login input[type="submit"]:hover{
+    background:#2ecc71;
+    color: #FFFFFF;
+}
+/*------------Home Styles------------*/
+.mainWrapper {
+    min-height: 100%;
+    width: 100%;
+}
+.mainWrapper .adminOptions {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    padding: 3% 0%;
+}
+
+.adminOptions .manageButton{
+    padding: 1% 2%;
+    font-size: 1em;
+    display: inline-block;
+    border :1px solid #27ae60;
+    background: #FFFFFF;
+    color: #27ae60;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    margin: 0% 2%;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s linear;
+}
+.manageButton:hover{
+    background: #27ae60;
+    color: #FFFFFF;
+}
+.contentContainer {
+    width: 90%;
+    height: 500px;
+    display: inline-block;
+    margin:0% 4.9%;
+}
+.overlay{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 501;
+}
+.addNew{
+    width: 40%;
+    height: auto;
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 28%;
+    z-index: 1000 !important;
+    border:solid 1px #CCC;
+    /*box-shadow: #ccc 0px 0px 10px 2px;*/
+    padding: 2%;
+    border-radius: 15px;
+    background: #FFFFFF;
+    transition: all 1.5s linear;
+    -webkit-transition: all 1.5s linear;
+    -moz-transition: all 1.5s linear;
+    -o-transition: all 1.5s linear;
+}
+.blurAnim{
+    filter:blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+}
+.addNew .addNewRaffle,.editRaffle {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.addNewRaffle input,textarea,select,.editRaffle input,textarea,select{
+    width: 92%;
+    padding: 2.5% 3%;
+    border:solid 1px #CCC;
+    color: #333333;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 100;
+    margin: 1%;
+    font-size: 0.8em;
+    border-radius: 10px;
+    resize: none;
+}
+.textbox{
+    width: 92%;
+    padding: 2.5% 3%;
+    border:solid 1px #CCC;
+    color: #333333;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 100;
+    margin: 1%;
+    font-size: 0.8em;
+    border-radius: 10px;
+    resize: none;
+}
+.addNewRaffle select,.editRaffle select{
+    width: 98%;
+}
+.addNewRaffle textarea,.editRaffle textarea{
+    min-height: 100px;
+}
+.addNewRaffle .shoeSizeSelected,.editRaffle .shoeSizeSelected{
+    width:92%;
+    padding:2.5% 3%;
+    text-align: left;
+}
+.shoeSizeSelected span.sizeSelected{
+    width: auto;
+    height: auto;
+    padding: 1% 0% 1% 1%;
+    background: #27ae60;
+    color: #FFF;
+    font-size: 0.6em;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 2%;
+}
+.shoeSizeSelected span.selectedText{
+}
+.shoeSizeSelected span span.deselect{
+ background: #10763b;
+    color: #FFFFFF;
+    font-size: 1em;
+    padding: 1%;
+    border-radius: 0px 5px 5px 0px;
+    margin-left:2%;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+.colorsSelected{
+    width:92%;
+    padding:2.5% 3%;
+    text-align: left;
+}
+.colorsSelected span.colorSelected{
+    width: auto;
+    height: auto;
+    padding: 1% 0% 1% 1%;
+    background: #27ae60;
+    color: #FFF;
+    font-size: 0.6em;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 2%;
+}
+.colorsSelected span.selectedText{
+}
+.colorSelected span span.deselect{
+    background: #10763b;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding: 1%;
+    border-radius: 0px 5px 5px 0px;
+    margin-left:5%;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+.halfBox {
+    width: 41% !important;
+}
+.addButton{
+    width: 98%;
+    background: #e9244f;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: none;
+    padding: 2% 0%;
+}
+.closePopup{
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    background: #FFF;
+    border-radius: 100%;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+.addNewRaffle h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    color: #666;
+    margin: 2% 0%;
+}
+.enterWinnerCommon{
+    width: 40%;
+    height: auto;
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    z-index: 9999999;
+    border:solid 1px #CCC;
+    /*box-shadow: #ccc 0px 0px 10px 2px;*/
+    padding:5%;
+    border-radius: 15px;
+    background: #FFFFFF;
+}
+.winnerImage{
+    padding: 5% 0%;
+}
+/*------------Home preview------------*/
+.homePreview{
+    width: 90%;
+    margin:2% 5%;
+}
+.homePreview h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    padding: 3%;
+}
+.viewLastWinner,.viewCurrentRaffle{
+    width: 100%;
+    height:auto;
+    background: #e9244f;
+    color: #FFF;
+    text-align: center;
+    display: none;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+.viewCurrentRaffle{
+    background: #FFF;
+    color: #000;
+    margin-bottom:3%;
+}
+.lastWinnerItem{
+    display: inline-block;
+    height: auto;
+}
+.lastWinnerItem span h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    margin: 1%;
+}
+.endRaffleImage img{
+    width: 40%;
+}
+.lastRaffleEndTime h4{
+    color: #FFFFFF;
+}
+.upcomingRaffles,.previousRaffles,.previousWinners {
+     width: 90%;
+    margin: 5% 5%;
+    text-align: center;
+    display: inline-block;
+}
+.raffleID{
+    width: auto !important;
+    height: auto !important;
+    padding: 1% !important;
+    min-height: 2%;
+    min-width: 2%;
+    border: solid 2px #666666;
+    color: #666;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    border-radius: 100%;
+}
+.upcomingItems,.previousItems,.previousWinnerItems{
+    width: 90%;
+    padding: 5%;
+    height: 70%;
+    max-height: 70%;
+}
+.singleItem{
+    width: 96%;
+    padding: 1% 1%;
+    background: #FFF;
+    border: solid 1px #f7f7f7;
+    margin-bottom: 1%;
+    border-radius: 15px;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+.singleItem:hover{
+    border: solid 1px #2ecc71;
+    background: #FFF;
+}
+.singleItem > span{
+    width: 17%;
+    display: inline-block;
+    padding: 1% 2.5%;
+}
+.startDate,.endDate{
+    font-size: 0.7em;
+}
+.singleItem .activeNow{
+    width: 20%;
+    display: inline-block;
+    padding: 1% 2.5%;
+    vertical-align: middle;
+}
+.singleItem .greenDot{
+    border: solid 2px #27ae60 !important;
+    color: #333333;
+}
+.previousItems .redDot{
+    border: solid 2px #CC2323 !important;
+    color: #333333;
+}
+.actionsPopup{
+    width: 35%;
+    height: auto;
+    padding: 2.5%;
+    display: none;
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    z-index: 999;
+    border:solid 1px #CCC;
+    border-radius: 15px;
+    background: #FFFFFF;
+}
+.actionsPopup h1{
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+}
+.actionsPopup .actionButton{
+    width:30%;
+    height: auto;
+    padding: 2.6% 2.5%;
+    background: #27ae60;
+    color: #FFFFFF;
+    border-radius: 10px;
+    display: inline-block;
+    border: solid 1px #27ae60;
+}
+.actionsPopup .actionSelect{
+    width: 40%;
+    height: auto;
+    padding: 2.5% 2.5%;
+    border: solid 1px #27ae60;
+    color: #000;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.enterColorName{
+    z-index: 9999999 !important;
+    width: 40%;
+    height: auto;
+    padding: 2.5% 2.5%;
+    display: none;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 20%;
+    background: #FFF;
+    position: relative;
+}

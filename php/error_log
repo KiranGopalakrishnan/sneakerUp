@@ -1,0 +1,86 @@
+[02-Mar-2017 16:13:54 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(141): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getPreviousWinners.php(4): database->getPreviousWinners()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:13:54 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(60): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getCurrentRaffle.php(4): database->getCurrentRaffle()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:14:09 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(141): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getPreviousWinners.php(4): database->getPreviousWinners()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:14:09 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(69): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getUpcomingRaffles.php(7): database->getUpcomingRaffles()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:14:09 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(60): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getCurrentRaffle.php(4): database->getCurrentRaffle()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:16:35 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(141): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getPreviousWinners.php(4): database->getPreviousWinners()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:16:35 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(69): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getUpcomingRaffles.php(7): database->getUpcomingRaffles()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:16:35 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(60): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getCurrentRaffle.php(4): database->getCurrentRaffle()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:19:19 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(60): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getCurrentRaffle.php(4): database->getCurrentRaffle()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[02-Mar-2017 16:19:19 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'snkrup'@'localhost' (using password: YES)' in /home/anouxxjh/public_html/snkrup/admin/php/database.php:13
+Stack trace:
+#0 /home/anouxxjh/public_html/snkrup/admin/php/database.php(13): PDO->__construct('mysql:host=loca...', 'snkrup', 'snkrup')
+#1 /home/anouxxjh/public_html/snkrup/admin/php/database.php(141): database->connect()
+#2 /home/anouxxjh/public_html/snkrup/php/getPreviousWinners.php(4): database->getPreviousWinners()
+#3 {main}
+  thrown in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 13
+[03-Mar-2017 15:42:25 America/Toronto] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 73
+[20-Mar-2017 15:00:41 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:07:19 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:08:05 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:09:52 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:24:48 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:35:55 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:44:16 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:46:12 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:48:11 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[20-Mar-2017 15:51:17 America/New_York] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/anouxxjh/public_html/snkrup/admin/php/database.php on line 234
+[27-Mar-2017 02:09:06 America/New_York] PHP Notice:  Undefined property on Braintree\Result\Successful: customerDetails in /home/anouxxjh/public_html/snkrup/php/braintree/lib/Braintree/Instance.php on line 36
+[27-Mar-2017 02:11:13 America/New_York] PHP Fatal error:  Cannot use object of type Braintree\Result\Successful as array in /home/anouxxjh/public_html/snkrup/php/checkout.php on line 22
+[27-Mar-2017 02:14:09 America/New_York] PHP Notice:  Undefined property on Braintree\Result\Successful: customer in /home/anouxxjh/public_html/snkrup/php/braintree/lib/Braintree/Instance.php on line 36
+[27-Mar-2017 02:15:49 America/New_York] PHP Notice:  Undefined property on Braintree\Result\Successful: customer in /home/anouxxjh/public_html/snkrup/php/braintree/lib/Braintree/Instance.php on line 36
+[09-Aug-2017 14:48:07 America/New_York] PHP Notice:  Undefined index: raffleId in /home/anouxxjh/public_html/snkrup/php/checkout.php on line 19

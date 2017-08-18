@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snkrup-Internets only sneeker lottery</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./fonts/style.css"/>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/jquery-anyslider.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script
+        src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+        crossorigin="anonymous"></script>
+
+    <script src="js/loadData.js"></script>
+    <script src="js/jquery.anyslider.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+ <section class="home">
+     <div class="home-page">
+        <div class="firstHalf homelogo">
+        </div><div class="secondHalf fontAvenir relativePosition">
+                 <h1>THE INTERNET'S
+                 <br>ONLY SNEAKER LOTTERY.</h1>
+             <div class="socialHomes">
+                 <span><img src="./images/facebook.png" class="socialHomeIcon" /> </span><span><img src="./images/instagram.svg" class="socialHomeIcon" /> </span>
+             </div>
+         </div>
+
+         <div class="scrollDown">
+             <h3>ENTER NOW</h3>
+             <img src="./images/arrow-down-black.png" height="17" />
+         </div>
+
+     </div>
+ </section>
+ <div class="header">
+     <ul class="nav">
+         <li class="active-menu-grey">RAFFLE</li>
+         <li>UPCOMING</li>
+         <li>WINNERS</li>
+         <li>FAQ</li>
+         <li>CONTACT US</li>
+     </ul>
+ </div>
+ <section class="raffle-page">
+
+     <div class="raffle">
+         <div class="firstHalf">
+            <div class="raffleItem">
+                <div class="liveTextAnimation">
+                    <h1><span class="liveText">LIVE</span><span class="liveDot">.</span></h1>
+                </div>
+                <div class="ticketInfoContainer">
+                    <div class="centeringParent">
+                        <h1 class="dollarSign">$</h1>
+                        <h1 class="ticketPrice">1</h1>
+                        <h1 class="infoText">PER</br>TICKET</h1>
+                    </div>
+                </div>
+                <div class="raffleItemImage">
+                    <img src="./images/test-raffle.png" class="image"/>
+                </div>
+            </div>
+         </div><div class="raffleItemDescription">
+             <h1>Sneaker Description</h1>
+         </div><div class="secondHalf">
+             <div class="raffleItem enterIntoRaffle">
+
+                 <div class="expander">
+                     <img src="./images/expander-white.png" class="expanderImage" />
+                 </div>
+                <div class="entryInputBoxes">
+                    <h1 class="shoeName">YEESY BOOST 350</h1>
+                    <div class="inputBoxes">
+                        <label>SHOE SIZE</label><select type="number" data-id="3" class="shoeSize" required>
+                        <option value="USM6">US M 6</option>
+                        <option value="USM7">US M 7</option>
+                        <option value="USM8">US M 8</option>
+                        <option value="USM9">US M 9</option>
+                        <option value="USM10">US M 10</option>
+                        <option value="USM11">US M 11</option>
+                        <option value="USM12">US M 12</option>
+                        <option value="USM13">US M 13</option>
+                    </select><br/>
+                        <label>TICKETS</label><input type="number" class="tickets" required/>
+                        <br/>
+                        <input type="button" id="paypal-button" value="ENTER NOW" />
+                    </div>
+                </div>
+             </div>
+         </div>
+
+    </div>
+ </section>
+
+ <section class="upcoming">
+     <h1>UPCOMING</h1>
+    <div class="upcomingRaffles">
+
+
+        </div>
+</section>
+
+<section class="notFullSection winner">
+<h1>PAST WINNERS</h1>
+    <div class="winnerContainer">
+        <div class="previousArrow">
+            <img src="./images/arrow-left.png" />
+        </div>
+        <div class="slider">
+
+        </div>
+        <div class="nextArrow">
+            <img src="./images/arrow-right.png" />
+        </div>
+    </div>
+</section>
+<section class="faq">
+    <div class="faqScrollDown">
+        <h1>HOW DOES IT WORK ?</h1>
+        <h3>FAQ</h3>
+        <div class="arrowDown">
+            <img src="./images/arrow-down.png" height="10" width="20" >
+        </div>
+    </div>
+    <div class="faqContainer">
+        <div class="smallQ">
+            <div class="singleFaqItem">
+                <h1>K but like, how do I know you’re for real ? <span class="expandThis">+</span></h1>
+                <div class="expandAnswer">
+                    <p>We’re sneakeheads just like you. We built this site to offer a fun & alternative way to collecting rare sneakers that you’ve always wanted. All featured shoes are 100% authentic, and all payments go through PayPal’s secure platform.</p>
+                </div>
+            </div>
+            <div class="singleFaqItem">
+                <h1>How often do the lotteries run ? <span class="expandThis">+</span></h1>
+                <div class="expandAnswer">
+                    <p>Every Sunday at 12pm EST, the prior week’s contest will close and the new one will open for entry. Each contest runs for one week.</p>
+                </div>
+            </div>
+            <div class="singleFaqItem">
+                <h1>Where do you ship ?<span class="expandThis">+</span></h1>
+                <div class="expandAnswer">
+                    <p>Shipping is limited to North America for now. That may change in the future.</p>
+                </div>
+            </div>
+            <div class="singleFaqItem">
+                <h1>Are the shoes real ?<span class="expandThis">+</span></h1>
+                <div class="expandAnswer">
+                    <p>Yes, all sneakers are 100% authentic.</p>
+                </div>
+            </div>
+        </div>
+        <div class="largeQ">
+            <div class="singleFaqItem">
+                <h1>How is the winner chosen ? <span class="expandThis">+</span></h1>
+                <div class="expandAnswer">
+                    <p>Every ticket purchased gives you another entry into our lottery system. We use a system to randomly generate a winning ticket. The draw will be broadcasted live on our <a href="https://www.instagram.com/sneakerupsocial/">Instagram</a>.</p>
+                </div>
+            </div>
+            <div class="singleFaqItem">
+                <h1>How long do I have to claim my prize ? <span class="expandThis">+</span></h1>
+                <div class="expandAnswer">
+                    <p>You’ll have 24 hours to reply to the winning announcement email with your shipping address. If you do not reply within that timeframe, we will choose another winner.</p>
+                </div>
+            </div>
+            <div class="singleFaqItem">
+                <h1>Where do you get the shoes ? <span class="expandThis">+</span></h1>
+                <div class="expandAnswer">
+                    <p>We’ve built an extensive network of online and brick-and-mortar retailers who act as our suppliers. Before featuring a shoe, we ensure that all US Men’s Size 6-13 are attainable.</p>
+                </div>
+            </div>
+            <div class="singleFaqItem">
+                <h1>What happens if I win ?<span class="expandThis">+</span></h1>
+                <div class="expandAnswer">
+                    <p>Winners will be contacted on Sunday by email. If your ticket is chosen, you’ll have 24 hours to reply with your shipping address.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="lastSection notFullSection contact">
+
+    <div class="contactContainer">
+        <h1>CONTACT US</h1>
+    <form class="feedbackForm">
+        <input type="text" class="name" placeholder="NAME" />
+        <input type="email" class="email" placeholder="EMAIL" />
+        <textarea class="message" placeholder="MESSAGE"></textarea>
+        <input type="submit" value="SUBMIT" />
+    </form>
+    </div>
+</section>
+
+    <div class="footer">
+        <ul>
+            <div class="footerHalf">
+            <li class="footerLogo">
+                <img src="./images/footer-logo.png" />
+            </li>
+            <li class="footerCopyright">
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy; 2017 SNKRUP ALL RIGHTS RESERVED
+            </li>
+            </div>
+            <div class="footerHalf footerRight">
+                <li class="terms">
+                    TERMS OF USE
+                </li>
+                <li class="social facebook">
+                    <img src="./images/facebook.png" class="socialIcon" >
+                </li>
+                <li class="social instagram">
+                <img src="./images/instagram.png" class="socialIcon" >
+                </li>
+            </div>
+        </ul>
+    </div>
+ <script src="js/paymentHandler.js"></script>
+ <!-- Load the Client component. -->
+ <script src="https://js.braintreegateway.com/web/3.8.0/js/client.min.js"></script>
+
+ <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+ <script src="https://js.braintreegateway.com/web/3.8.0/js/hosted-fields.js"></script>
+ <script src="https://js.braintreegateway.com/web/3.8.0/js/paypal.js"></script>
+ <script src="https://js.braintreegateway.com/web/3.8.0/js/data-collector.js"></script>
+
+
+
+ <script>
+     $(document).ready(function(e){
+         var paypalButton = document.getElementById('paypal-button');
+         $.post("./php/clientToken.php",function(response){
+             // Create a Client component
+             braintree.client.create({
+                 authorization: response
+             }, function (clientErr, clientInstance) {
+                 // Create PayPal component
+                 braintree.paypal.create({
+                     client: clientInstance
+                 }, function (err, paypalInstance) {
+                     paypalButton.addEventListener('click', function () {
+                         var divname = $(this).closest(".secondHalf");
+                         // Tokenize here!
+                         paypalInstance.tokenize({
+                             flow: 'checkout', // Required
+                             amount: 10.00, // Required
+                             currency: 'USD', // Required
+                             locale: 'en_US',
+                             enableBillingAddress: true,
+                             billingAddressEditable: false,
+                             billingAddressOverride: {
+                                 recipientName: 'Scruff McGruff',
+                                 line1: '1234 Main St.',
+                                 line2: 'Unit 1',
+                                 city: 'Chicago',
+                                 countryCode: 'US',
+                                 postalCode: '60652',
+                                 state: 'IL',
+                                 phone: '123.456.7890'
+                             },
+                             enableShippingAddress: true,
+                             shippingAddressEditable: false,
+                             shippingAddressOverride: {
+                                 recipientName: 'Scruff McGruff',
+                                 line1: '1234 Main St.',
+                                 line2: 'Unit 1',
+                                 city: 'Chicago',
+                                 countryCode: 'US',
+                                 postalCode: '60652',
+                                 state: 'IL',
+                                 phone: '123.456.7890'
+                             }
+                         }, function (err, tokenizationPayload) {
+                             // Tokenization complete
+                             // Send tokenizationPayload.nonce to server
+                             var raffleId=$(".shoeSize").attr("data-id");
+                             var shoeSize = $(".shoeSize").val();
+                             var ticketCount = $(".tickets").val();
+                             $.post("./php/checkout.php",{nonceToken:tokenizationPayload,raffleId:raffleId,shoeSize:shoeSize,ticketCount:ticketCount},function(response){
+                                 $(".shoeSize,label").hide();
+                                 $(".tickets,label").hide();
+                                 $("#paypal-button").hide();
+                                 $(".shoeName").html("Purchase Successfull");
+                                 //console.log(response);
+                                 divname.animate({left:"45%"},600,"swing");
+                             });
+                         });
+                     });
+                 });
+             });
+
+         })
+
+
+     });
+</script>
+</body>
+</html>
